@@ -46,6 +46,9 @@
 ### Voltar a versão do deployment para versão específica
 - kubectl rollout undo [deployment/nome-do-deployment] --to-version=0
 
+### Executar um comando em um Pod específico, no caso abaixo acessando bash do Pod
+- kubectl exec -it [nome-do-pod] -- bash
+
 ## Minikube
 
 ### Iniciar o cluster
@@ -59,6 +62,3 @@
 
 ### Verificar o status do minikube
 - minikube status
-
-### Executar um comando em um Pod específico, no caso abaixo acessando bash do Pod
-- kubectl exec -it [nome-do-pod] -- bash
