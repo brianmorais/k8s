@@ -62,3 +62,6 @@
 
 ### Verificar o status do minikube
 - minikube status
+
+### Obter a url de algum serviço
+- minikube service [nome-do-servico] --url
