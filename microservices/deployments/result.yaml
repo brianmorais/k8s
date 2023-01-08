@@ -18,10 +18,6 @@ spec:
       containers:
       - name: result
         image: kodekloud/examplevotingapp_result:v1
-        resources:
-          limits:
-            memory: "128Mi"
-            cpu: "500m"
         ports:
         - containerPort: 80
           name: result
