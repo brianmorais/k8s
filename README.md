@@ -65,3 +65,6 @@
 
 ### Obter a url de algum serviço
 - minikube service [nome-do-servico] --url
+
+### Carregar imagem para o minikube (para utilizar imagens locais)
+- minikube image load [nome-da-imagem]
