@@ -71,6 +71,34 @@
 
 ## K9S
 
+### Instalação
+
+#### Baixe o executável compactado
+Faça o download do executável compactado no formato `.tar.gz` para a pasta temporária. Observação: Substituir pela versão desejada.
+```bash
+wget https://github.com/derailed/k9s/releases/download/v0.26.7/k9s_Linux_x86_64.tar.gz -O /tmp/k9s.tar.gz
+```
+
+#### Extraia
+Extraia o executável de dentro do pacote `.tar.gz` para a pasta /tmp
+```bash
+tar -zxvf /tmp/k9s.tar.gz --directory /tmp/
+```
+
+#### Permissão de executar
+Dê a permissão de excecução para o K9s
+```bash
+chmod +x /tmp/k9s
+```
+
+#### Mova o executável
+Pra que você consiga invocar o comando `k9s` de qualquer lugar/diretório, você precisa mover ele pra uma pasta que esteja no `PATH` da sua máquina.  
+Nesse caso: `/usr/local/bin/`
+
+```bash
+sudo mv /tmp/k9s /usr/local/bin/k9s
+```
+---
 ### Acessar o K9S
 - Digitar o comndo **k9s** no terminal
 
