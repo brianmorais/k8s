@@ -149,54 +149,54 @@ sudo mv /tmp/k9s /usr/local/bin/k9s
 ```
 ---
 ### Acessar o K9S
-- Digitar o comndo **k9s** no terminal
+- Digitar o comndo `k9s` no terminal
 
 ### Exibir todos os comandos
-- Apertar a tecla **?**
+- Apertar a tecla `?`
 
 ### Exibir a barra de comandos
-- Apertar a tecla **:**
+- Apertar a tecla `:`
 
 ### Filtrar os recursos listados
-- Apertar a tecla **/**
+- Apertar a tecla `/`
 
 ### Alterar o contexto (cluster)
-- Digitar o comando **ctx** na barra de comandos
+- Digitar o comando `ctx` na barra de comandos
 
 ### PortForward
 
 #### Adicionar um PortForward
-- Posicionar o cursor sobre o um pod ou service e apertar **Shift+f**
+- Posicionar o cursor sobre o um pod ou service e apertar `Shift+f`
 
 #### Listar todos os PortFowards relativos ao recurso
-- Manter selecionado o recurso e apertar **f**
+- Manter selecionado o recurso e apertar `f`
 
 ### Deletar ou recurso
-- Posicionar o cursor sobre o recurso e apertar a tecla **ctrl+d**
+- Posicionar o cursor sobre o recurso e apertar a tecla `ctrl+d`
 
 ### Voltar um recurso
-- Apertar a telcla **Esc**
+- Apertar a telcla `Esc`
 
 ### Exibir logs de um recurso
-- Posicionar o cursor sobre um pod ou um deployment e apertar a tecla **l**
+- Posicionar o cursor sobre um pod ou um deployment e apertar a tecla `l`
 
 ### Acessar o container do pod
-- Posicionar o cursor sobre um pod e apertar a tecla **s**
+- Posicionar o cursor sobre um pod e apertar a tecla `s`
 
 ### Sair do container do pod
-- Apertar **ctrl+d**
+- Apertar `ctrl+d`
 
 ### Exibir o yaml do recurso
-- Posicionar o cursor sobre o recurso e apertar a tecla **y**
+- Posicionar o cursor sobre o recurso e apertar a tecla `y`
 
 ### Copiar o yaml do recurso
-- Após exibir o yaml do recurso, apertar a tecla **c**
+- Após exibir o yaml do recurso, apertar a tecla `c`
 
 ### Salvar o yaml do recurso em uma pasta temporária
-- Após exibir o yaml do recurso, apertar **ctrl+s**
+- Após exibir o yaml do recurso, apertar `ctrl+s`
 
 ### Exibri o secret decodificado
-- Posicionar o cursor sobre o secred e apertar a tecla **x**
+- Posicionar o cursor sobre o secred e apertar a tecla `x`
 
 ### Exibir a descrição do recurso
--  Posicionar o cursor sobre o recurso e apertar a tecla **d**
+-  Posicionar o cursor sobre o recurso e apertar a tecla `d`
