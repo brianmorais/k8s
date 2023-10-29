@@ -118,6 +118,28 @@ minikube service [nome-do-servico] --url
 minikube image load [nome-da-imagem]
 ```
 
+### Adicionar Docker registry dentro do minikube
+
+- Ao inicializar o minikube, usar a flag --ports com a porta do registry a ser exposta
+
+```bash
+minikube start --ports 5000:5000
+```
+
+- Após a subida do minikube, fazer acesso ao mesmo via ssh
+
+```bash
+minikube ssh
+```
+
+- Dentro do minikube fazer a execução do container com o registry
+
+```bash
+docker run --name registy -d -p 5000:5000 --restart always registry:2
+```
+
+- As imagens geradas devem possuir o seguinte formato: `localhost:5000/<NOME_DA_IMAGEM>:<TAG>`
+
 ## K9S
 
 ### Instalação
