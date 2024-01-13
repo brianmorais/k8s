@@ -193,7 +193,7 @@ sudo mv /tmp/k9s /usr/local/bin/k9s
 #### Listar todos os PortFowards relativos ao recurso
 - Manter selecionado o recurso e apertar `f`
 
-### Deletar ou recurso
+### Deletar o recurso
 - Posicionar o cursor sobre o recurso e apertar a tecla `ctrl+d`
 
 ### Voltar um recurso
