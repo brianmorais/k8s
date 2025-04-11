@@ -171,7 +171,7 @@ sudo mv /tmp/k9s /usr/local/bin/k9s
 ```
 ---
 ### Acessar o K9S
-- Digitar o comndo `k9s` no terminal
+- Digitar o comando `k9s` no terminal
 
 ### Exibir todos os comandos
 - Apertar a tecla `?`
